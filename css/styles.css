@@ -39,3 +39,13 @@
 }
 
 /* ============================================================fim do fundo 2 =============================================================*/
+
+#fundo_branco {
+  background-color: rgb(240, 248, 248);
+}
+
+body {
+  background-image: url("../img/hotel1.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
