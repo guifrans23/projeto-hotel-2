@@ -82,7 +82,7 @@
     <!-- ================================================fim do carrossel ============================================================-->
 
     <!--  -->
-    <div class="container-fluid">
+    <div class="container-fluid fundo-branco">
         <div class="row">
             <div class="col">
                 <form id="reservas_superior">
@@ -97,6 +97,50 @@
                     <input type="submit" id="btreservar" value="reservar">
                 </form>
             </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>reservas</h2>
+
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputNome" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="inputNome">
+              </div>
+              <div class="col-md-6">
+                <label for="inputemail" class="form-label">
+                  email
+                </label>
+                <input type="email" class="form-control" id="inputemail">
+              </div>
+              <div class="col-4">
+                <label for="inputsuite" class="form-label">
+                  Suite
+                </label>
+                <input type="text" class="form-control" id="inputsuite">
+              </div>
+
+              <div class="col-4">
+                <label for="inputCheckin" class="form-label">
+                  Checkin
+                </label>
+                <input type="date" class="form-control" id="inputCheckin">
+              </div>
+
+              <div class="col-4">
+                <label for="inputCheckout" class="form-label">
+                 checkout
+                </label>
+                <input type="date" class="form-control" id="inputCheckout">
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">reservar</button>
+              </div>
+            </form>
+
+
+          </div>
         </div>
     </div>
 
